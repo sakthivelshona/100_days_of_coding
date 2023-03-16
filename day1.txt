@@ -1,0 +1,80 @@
+# Today I have solved 5 programs
+
+1.public class Solution {
+
+    public static void main(String[] args) {
+     System.out.println("Hello, World.");
+     System.out.println("Hello, Java.");
+     
+    }
+}
+
+
+2.import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        
+        Scanner obj=new Scanner(System.in);
+        int a = obj.nextInt();
+        System.out.println(a);
+        
+         int b = obj.nextInt();
+        System.out.println(b);
+        
+         int c = obj.nextInt();
+        System.out.println(c);
+   
+    }
+}
+
+
+3.public class solution {
+
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        
+        int i = obj.nextInt();
+        double d = obj.nextDouble();
+        obj.nextLine();
+        String s = obj.nextLine();
+
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+    }
+}
+
+4.public class Solution {
+
+
+
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        
+        
+        Scanner obj = new Scanner(System.in);
+        int N =obj.nextInt();
+        
+       
+       if(N%2==1){
+           
+           System.out.println("Weird");
+       }
+       
+       else if (N>=2 && N<=5){
+           System.out.println("Not Weird");
+       }
+       else if (N>=6 && N<=20){
+           System.out.println("Weird");
+       }
+        else {
+           System.out.println("Not Weird");
+       }
+       
+    }
+}
+
