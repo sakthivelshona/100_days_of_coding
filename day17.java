@@ -1,4 +1,4 @@
-Java BigInt
+Java BigInteger
 
 import java.io.*;
 import java.util.*;
