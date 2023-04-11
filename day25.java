@@ -1,5 +1,4 @@
-
-
+Valid Username Regular Expression
 
 import java.util.Scanner;
 class UsernameValidator {
